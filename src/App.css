@@ -1,0 +1,23 @@
+.slick-slider {
+    margin: 0 auto; /* Center the slider */
+  }
+  
+  .slick-slide img {
+    width: 100%;  /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures images scale properly without distortion */
+    border-radius: 10px;
+  }
+  
+  .slick-slide {
+    display: flex;  /* Prevent flex shrinking */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-container {
+    width: 90%;  /* Give the slider a specific width */
+    margin: 0 auto; /* Center it */
+    overflow: hidden; /* Prevent overflow issues */
+  }
+  
